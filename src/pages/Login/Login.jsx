@@ -17,6 +17,7 @@ function Login() {
       console.log("Usuário logado:", user);
       navigate('/dados')
     }catch(error){
+      alert("Erro ao fazer login. Verifique seu e-mail e senha.");
       console.error("Erro ao fazer login:", error);
     }
   }
